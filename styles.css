@@ -5,4 +5,5 @@ a:hover{color:#2c9678}
 a:active{color:#2c9678}
 a{
   text-decoration:none;
+  cursor:crosshair;
 }
