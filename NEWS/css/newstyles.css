@@ -1,10 +1,10 @@
 body{background-color:black;}
 h1{color:red;}
-p{color:green;}
-a:link{color:skyblue;}
-a:visited{color:skyblue;}
-a:hover{color:skyblue;}
-a:active{color:skyblue;}
+p{color:limegreen;}
+a:link{color:blue;}
+a:visited{color:blue;}
+a:hover{color:blue;}
+a:active{color:blue;}
 a{
 	text-decoration:none;
 	cursor:crosshair;
