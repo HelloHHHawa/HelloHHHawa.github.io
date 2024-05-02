@@ -1,2 +1,10 @@
 h1{color:red;}
 p{color:green;}
+a:link{color:skyblue;}
+a:visited{color:skyblue;}
+a:hover{color:skyblue;}
+a:active{color:skyblue;}
+a{
+	text-decoration:none;
+	cursor:crosshair;
+}
