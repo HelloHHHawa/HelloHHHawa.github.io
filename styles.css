@@ -1,7 +1,7 @@
 body{background-color:black;}
-h1{color:white;}
-h4{color:white;}
-p{color:white;}
+h1{color:white;text-align:center;}
+h4{color:white;text-align:center;}
+p{color:white;text-align:center;}
 a:link{color:#ed556a}
 a:visited{color:#ed556a}
 a:hover{color:#2c9678}
