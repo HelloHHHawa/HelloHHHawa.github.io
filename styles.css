@@ -1,4 +1,9 @@
-body{background-color:black;}
+body{
+  background-color:black;
+  background-image:url('https://hhhawa.github.io/IMAGE/BingWallpaper.jpg');
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
 h1{color:white;text-align:center;}
 h4{color:white;text-align:center;}
 p{color:white;text-align:center;}
