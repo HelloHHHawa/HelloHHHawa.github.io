@@ -7,11 +7,12 @@ body{
 h1{color:white;text-align:center;}
 h4{color:white;text-align:center;}
 p{color:white;text-align:center;}
-a:link{color:#ed556a}
-a:visited{color:#ed556a}
-a:hover{color:#2c9678}
-a:active{color:#2c9678}
+a:link{color:#ed556a;text-align:center;}
+a:visited{color:#ed556a;text-align:center;}
+a:hover{color:#2c9678;text-align:center;}
+a:active{color:#2c9678;text-align:center;}
 a{
+  text-align:center;
   text-decoration:none;
   cursor:crosshair;
 }
