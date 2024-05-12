@@ -17,7 +17,7 @@ a{
   cursor:crosshair;
 }
 a:link,a:visited{
-  display:block;
+  display:inline-block;
   font-weight:bold;
   color:#FFFFFF;
   background-color:#98bf21;
