@@ -1,28 +1,66 @@
-body{
-  background-color:black;
-  background-image:url('https://hhhawa.github.io/IMAGE/bg.png');
-  background-repeat:no-repeat;
-  background-attachment:fixed;
+body {
+  background-color: black;
+  background-image: url('https://hhhawa.github.io/IMAGE/bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-h1{color:white;text-align:center;}
-h4{color:white;text-align:left;}
-p{color:white;text-align:left;}
-a:link{color:#f57485;text-align:left;}
-a:visited{color:#f57485;text-align:left;}
-a:hover{color:aquamarine;text-align:left;}
-a:active{color:aquamarine;text-align:left;}
-a{
-  text-align:left;
-  text-decoration:none;
-  cursor:crosshair;
+
+h1 {
+  color: white;
+  text-align: center;
 }
-a:link,a:visited{
-  display:inline-block;
-  font-weight:bold;
-  color:#FFFFFF;
-  background-color:#98bf21;
-  width:200px;
-  text-align:left;
-  padding:8px;
-  text-decoration:none;
+
+h4 {
+  color: white;
+  text-align: left;
+}
+
+p {
+  color: white;
+}
+
+a:link {
+  color: #f57485;
+  text-align: left;
+}
+
+a:visited {
+  color: #f57485;
+  text-align: left;
+}
+
+a:hover {
+  color: aquamarine;
+  text-align: left;
+}
+
+a:active {
+  color: aquamarine;
+  text-align: left;
+}
+
+a {
+  text-align: left;
+  text-decoration: none;
+  cursor: crosshair;
+}
+
+a:link,
+a:visited {
+  display: inline-block;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #98bf21;
+  width: 200px;
+  text-align: left;
+  padding: 8px;
+  text-decoration: none;
+}
+
+form {
+  color: white;
+}
+
+input {
+  color: white;
 }
