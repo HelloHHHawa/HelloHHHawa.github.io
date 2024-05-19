@@ -4,6 +4,7 @@
 - [本周资讯](#本周资讯)
 - [HHH分析](#未来趋势)
 - [本周页面](#本周页面介绍)
+- [其他内容](#其它你可能感兴趣的内容)
 
 
 
@@ -79,3 +80,9 @@ HHHserver腐竹入住18G?2个服务器要合并？！详情见[HHH分析](#未�
 
 ## 进度
 [进度列表](https://zh.minecraft.wiki/w/%E8%BF%9B%E5%BA%A6)
+
+
+# 其它你可能感兴趣的内容
+[你可能感兴趣的PvP资源包](https://wwu.lanzout.com/imHs5y9xgah)
+
+[你可能感兴趣的MOD-LambDynamicLights(动态光源)](https://modrinth.com/mod/lambdynamiclights)
