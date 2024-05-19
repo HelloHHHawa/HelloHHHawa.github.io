@@ -1,4 +1,7 @@
-body{background-color:black;}
+body{
+	background-color:black;
+	background-image:url('https://hhhawa.github.io/IMAGE/bg.png');
+}
 h1{color:red;}
 p{color:limegreen;}
 a:link{color:blue;}
