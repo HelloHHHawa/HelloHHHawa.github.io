@@ -4,3 +4,5 @@ workspace.xml
 18Gserver.xml
 misc.xml
 modules.xml
+.vscode
+.idea
