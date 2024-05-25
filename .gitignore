@@ -1,6 +1,6 @@
 # 默认忽略的文件
 /shelf/
-/workspace.xml
-/18Gserver.xml
-/misc.xml
-/modules.xml
+workspace.xml
+18Gserver.xml
+misc.xml
+modules.xml
