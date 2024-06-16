@@ -1,14 +1,54 @@
-body{
-	background-color:black;
-	background-image:url('https://hhhawa.github.io/IMAGE/bg.png');
+body {
+	background-color: black;
+	background-image: url('https://hhhawa.github.io/IMAGE/bg.png');
 }
-h1{color:red;}
-p{color:limegreen;}
-a:link{color:blue;}
-a:visited{color:blue;}
-a:hover{color:blue;}
-a:active{color:blue;}
-a{
-	text-decoration:none;
-	cursor:crosshair;
+
+h1 {
+	color: white;
+	text-align: center;
+  }
+  
+  h2 {
+	color: white;
+	text-align: left;
+  }
+  
+  h3 {
+	color: white;
+	text-align: left;
+  }
+  
+  h4 {
+	color: white;
+	text-align: left;
+  }
+
+p {
+	color: white;
+}
+
+a:link {
+	color: aquamarine;
+}
+
+a:visited {
+	color: aquamarine;
+}
+
+a:hover {
+	color: aquamarine;
+}
+
+a:active {
+	color: aquamarine;
+}
+
+a {
+	text-decoration: none;
+	cursor: crosshair;
+}
+
+table {
+	border-color: white;
+	color: white;
 }
