@@ -58,10 +58,6 @@ table {
 	color: white;
 }
 
-text {
-  color: black;
-}
-
 form {
   color: white;
 }
@@ -69,4 +65,16 @@ form {
 input {
   color:black;
   border-color: black;
+}
+
+text {
+	color: white;
+}
+
+ol {
+	color: white;
+}
+
+ul {
+	color: white;
 }
