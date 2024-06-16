@@ -10,6 +10,16 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  color: white;
+  text-align: left;
+}
+
+h3 {
+  color: white;
+  text-align: left;
+}
+
 h4 {
   color: white;
   text-align: left;
@@ -39,22 +49,17 @@ a:active {
   text-align: left;
 }
 
-a {
-  text-align: left;
-  text-decoration: none;
-  cursor: crosshair;
+input {
+  color: white;
 }
 
-a:link,
-a:visited {
-  display: inline-block;
-  font-weight: bold;
-  color: #FFFFFF;
-  background-color: #98bf21;
-  width: 200px;
-  text-align: left;
-  padding: 8px;
-  text-decoration: none;
+table {
+  border-color: white;
+	color: white;
+}
+
+text {
+  color: black;
 }
 
 form {
@@ -62,5 +67,6 @@ form {
 }
 
 input {
-  color: white;
+  color:black;
+  border-color: black;
 }
