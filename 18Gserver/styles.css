@@ -56,6 +56,14 @@ input {
 table {
   border-color: white;
 	color: white;
+  border: 1px solid rgb(56, 56, 56);
+  border-collapse: collapse;
+}
+
+td {
+	border-color: white;
+	color: white;
+	border: 1px solid rgb(56, 56, 56);
 }
 
 form {
