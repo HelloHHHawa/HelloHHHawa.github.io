@@ -49,8 +49,16 @@ a {
 }
 
 table {
-	border-color: white;
 	color: white;
+	border: 2px solid rgb(56, 56, 56);
+	border-collapse: collapse;
+	background-color: rgb(31, 31, 31);
+}
+
+td {
+	background-color: rgb(31, 31, 31);
+	color: white;
+	border: 2px solid rgb(56, 56, 56);
 }
 
 text {
