@@ -2,6 +2,7 @@ body {
   background-image: url('https://hhhawa.github.io/IMAGE/bg.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: black;
 }
 
 h1 {
