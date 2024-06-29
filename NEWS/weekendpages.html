@@ -165,15 +165,15 @@
   <hr>
   </p>
   <p>狼有3种状态：</p>
-  <ul>
+  <ul type=square>
     <li>野生的狼:
-      <ul>
+      <ul type=square>
         <li>每一只眼有一个白色和一个黑色的像素。</li>
         <li>尾巴向上抬起36°（0°时垂直向下）。</li>
       </ul>
     </li>
     <li>愤怒的狼:
-      <ul>
+      <ul type=square>
         <li>野生的狼有攻击目标时变为愤怒的狼。</li>
         <li>紧皱眉头，双眼发红，嘴角上扬，并且不断发出愤怒的嚎叫。</li>
         <li>尾巴向上抬起88.2°。</li>
@@ -182,7 +182,7 @@
       </ul>
     </li>
     <li>驯服的狼:
-      <ul>
+      <ul type=square>
         <li>野生的狼被玩家驯服后变为驯服的狼，详见下文的 §驯服、生命值和喂养章节。</li>
         <li>眼神温顺，脖子周围有项圈。</li>
         <li>尾巴向上抬起
@@ -201,14 +201,14 @@
     狼离开水或雨[仅JE]中后会甩动身体，甩出水花粒子。在Java版中，狼浸在水或雨中时纹理会加深。
   </p>
   <p>
-  <table style="border: 0px solid rgb(56, 56, 56);background-color: white;">
+  <table>
     <tr>
-      <td style="border: 0px solid rgb(56, 56, 56);background-color: white;"><img src="images/Begging_Tame_Wolf.png" alt="一只驯服的狼正在乞求食物" width="225px"></td>
-      <td style="border: 0px solid rgb(56, 56, 56);background-color: white;"><img src="images/Wolf_shaking.gif" alt="一只驯服的狼正在甩干身上的水" width="225px"></td>
+      <td><img src="images/Begging_Tame_Wolf.png" alt="一只驯服的狼正在乞求食物" width="225px"></td>
+      <td><img src="images/Wolf_shaking.gif" alt="一只驯服的狼正在甩干身上的水" width="225px"></td>
     </tr>
     <tr>
-      <td style="border: 0px solid rgb(56, 56, 56);background-color: white;color: black;">一只驯服的狼正在乞求食物</td>
-      <td style="border: 0px solid rgb(56, 56, 56);background-color: white;color: black;">一只驯服的狼正在甩干身上的水</td>
+      <td>一只驯服的狼正在乞求食物</td>
+      <td>一只驯服的狼正在甩干身上的水</td>
     </tr>
   </table>
   </p>
@@ -241,7 +241,7 @@
     狼铠无法抵消下列类型的伤害（在Java版中它们带有伤害类型标签 #bypasses_wolf_armor）：
   </p>
   <p>
-    <ul>
+    <ul type=square>
       <li>魔法伤害</li>
       <li>挤压</li>
       <li>溺水</li>
@@ -277,10 +277,10 @@
     驯服的狼有可能传送到一个无法进入的位置（例如冰面下）并因窒息而受伤或死亡。
     <br>
     狼不会传送的情况：
-    <ul>
+    <ul type=square>
       <li>
         狼被要求坐下。
-        <ul>
+        <ul type=square>
           <li>狼被推入水中或受伤时会起身，这可能导致传送。</li>
           <li>如果狼在一个已加载的区块中，且距离较远的玩家被生物伤害时，狼有可能起身并导致传送，接着攻击该生物，然后又坐下。</li>
         </ul>
@@ -291,14 +291,16 @@
       <li>狼所在位置未被加载。</li>
       <li>
         以玩家为中心的5×3×5的区域内所有位置都不满足以下条件的任何一个：
-        <ul>
+        <ul type=square>
           <li>位置可以被寻路。</li>
           <li>位置上不存在其他实体可以与狼产生碰撞。</li>
         </ul>
       </li>
       <li>玩家在其他维度；狼将待在所在维度直到玩家回来[仅JE]。然而，可以事先把狼推入传送门将其先传送至其他维度。</li>
     </ul>
+    <p>
     狼的传送过程不会发出声音。
+    </p>
   </p>
   <p>
     <h2>驯服、生命值和喂养</h2>
@@ -402,6 +404,65 @@
       <tr>
         <td>兔肉煲[仅BE]</td>
         <td>20（♥ × 10）</td>
+      </tr>
+    </table>
+  </p>
+  <p>
+    <h3>繁殖</h3>
+  </p>
+  <p>
+    喂食生命值已满的驯服的狼且喂食的物品不是河豚、热带鱼、生鳕鱼、生鲑鱼、熟鳕鱼、熟鲑鱼、兔肉煲时[仅BE]可以使其进入“求爱模式”，产生爱心粒子，并且两只狼都站立时才能繁殖出幼年狼。狼成功繁殖时掉落1–7 <img src="Images/R-C.gif" alt="经验值" width="15px">经验值，且在5分钟内无法再次繁殖。
+    <br>
+    繁殖出的幼年狼会出生在其中一只狼的碰撞箱内，并选择该狼的主人作为自己的主人。
+  </p>
+  <p>
+    <ul type=square>
+      <li>如果两只狼属于同一个玩家，那么其繁殖出的幼年狼也会属于这个玩家。</li>
+      <li>两只狼所属的玩家不同时，如果繁殖过程中其中一只狼被命令坐下或无法找到它的主人[仅JE]，那么繁殖出的幼年狼属于另一只狼的主人；否则繁殖出的幼年狼属于更早被加载的狼的主人。</li>
+    </ul>
+  </p>
+  <p>
+    繁殖出的幼年狼是已驯服的，会遗传第一个被喂食的狼的毛色。幼年驯服狼比起成年有更高的频率随机走动，显得更加活泼好动。
+    <br>
+    可以给幼年狼喂食肉类加快其生长，每次喂食可以减少约剩余成长时间的10%。
+    <br>
+    在Java版中，喂食野生的狼时也会产生爱心粒子，但它们不会进入“求爱模式”；在基岩版中，玩家无法喂食野生的狼。
+  </p>
+  <p>
+    <h2>音效</h2>
+  </p>
+  <p>
+    java版:
+  </p>
+  <p>
+    <a href="https://zh.minecraft.wiki/w/%E7%8B%BC#%E9%9F%B3%E6%95%88">音效</a>
+  </p>
+  <p>
+    基岩版:
+  </p>
+  <p>
+    <a href="https://zh.minecraft.wiki/w/%E7%8B%BC#%E9%9F%B3%E6%95%88">音效</a>
+  </p>
+  <p>
+    <h2>数据值</h2>
+  </p>
+  <p>
+    <h3>ID</h3>
+  </p>
+  <p>
+    java版:
+  </p>
+  <p>
+    <table>
+      <tr>
+        <td>名称</td>
+        <td>命名空间ID</td>
+        <td>本地化键名</td>
+      </tr>
+      <tr>
+        <td>狼</td>
+        <td>wolf</td>
+        <td>entity.minecraft.wolf</td>
       </tr>
     </table>
   </p>
