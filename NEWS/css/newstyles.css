@@ -1,7 +1,7 @@
 body {
 	background-color: black;
 	background-image: url('https://hhhawa.github.io/NEWS/Images/icon.svg');
-	background-size: 1000px;
+	background-size:contain;
   	background-repeat:no-repeat;
   	background-attachment:fixed;
 }
