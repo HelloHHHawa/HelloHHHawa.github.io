@@ -19,6 +19,7 @@ a{
 a:link,a:visited{
   display:inline-block;
   font-weight:bold;
+   border-radius:25%;
   color:#FFFFFF;
   background-color:#98bf21;
   width:200px;
