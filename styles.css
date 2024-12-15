@@ -1,29 +1,58 @@
-body{
-  background-color:black;
-  background-image:url('https://hhhawa.github.io/IMAGE/bg.png');
-  background-repeat:no-repeat;
-  background-attachment:fixed;
+body {
+  background-color: black;
+  background-image: url('https://hhhawa.github.io/IMAGE/bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-h1{color:white;text-align:center;}
-h4{color:rgb(255, 255, 255);text-align:center;}
-p{color:white;text-align:center;}
-a:link{color:#ed556a;text-align:center;}
-a:visited{color:#ed556a;text-align:center;}
-a:hover{color:#2c9678;text-align:center;}
-a:active{color:#2c9678;text-align:center;}
-a{
-  text-align:center;
-  text-decoration:none;
-  cursor:crosshair;
+
+h1 {
+  color: white;
+  text-align: center;
 }
-a:link,a:visited{
-  display:inline-block;
-  font-weight:bold;
-  border-radius:10%;
-  color:#000000;
-  background-color:#98bf21;
-  width:200px;
-  text-align:center;
-  padding:8px;
-  text-decoration:none;
+
+h4 {
+  color: rgb(255, 255, 255);
+}
+
+p {
+  color: white;
+}
+
+a:link {
+  color: #ed556a;
+  text-align: center;
+}
+
+a:visited {
+  color: #ed556a;
+  text-align: center;
+}
+
+a:hover {
+  color: #2c9678;
+  text-align: center;
+}
+
+a:active {
+  color: #2c9678;
+  text-align: center;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  cursor: crosshair;
+}
+
+a:link,
+a:visited {
+  display: inline-block;
+  font-weight: bold;
+  border-radius: 10%;
+  color: #000000;
+  background-color: #98bf21;
+  width: 200px;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
 }
