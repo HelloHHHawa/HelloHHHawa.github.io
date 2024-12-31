@@ -1,0 +1,8 @@
+/* 设置页面背景颜色和背景图片 */
+body {
+    background-color: black;
+    background-image: url('IMAGE/bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  

@@ -1,19 +1,6 @@
-body {
-  background-color: black;
-  background-image: url('IMAGE/bg.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-h1 {
-  color: white;
-  text-align: center;
-}
-
-p {
-  color: white;
-}
-
+@import "bg.css"; /*导入背景图片*/
+@import "ssye.css"; /*aaaaaaa*/
+/* 设置链接的默认和访问后的样式 */
 a:link,
 a:visited {
   display: inline-block; /* or block */
@@ -29,22 +16,26 @@ a:visited {
   text-decoration: none;/* 去掉下划线 */
 }
 
+/* 设置链接在悬停时的样式 */
 a:hover {
   color: #ed556a;
   text-align: center;
 }
 
+/* 设置链接在激活时的样式 */
 a:active {
   color: #ed556a;
   text-align: center;
 }
 
+/* 设置链接的通用样式 */
 a {
   text-align: center;
   text-decoration: none;
   cursor: crosshair;
 }
 
+/* 设置无序列表的样式 */
 ul {
   list-style-type: none;
 }
