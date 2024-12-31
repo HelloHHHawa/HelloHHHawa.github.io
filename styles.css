@@ -17,34 +17,82 @@ p {
 a:link,
 a:visited {
   display: inline-block; /* or block */
-  font-weight: bold; /* or other styles */
-  border-radius: 10pt;/* or other styles */
-  color: #000000;/* 文字颜色 */
-  background-color: #98bf21;/* 背景颜色 */
-  margin: 3px;/* 内边距 */
-  width: 200px;/* 宽度 */
-  height: 25px;/* 高度 */
+  font-weight: bold; /* 粗体 */
+  border-radius: 10pt;/* 圆角盒子 */
+
+  
+  margin: 3px;/* 外边距 */
   text-align: center; /* 文字居中 */
   padding: 6px; /* 内边距 */
   text-decoration: none;/* 去掉下划线 */
 }
 
-a:hover {
-  color: #ed556a;
-  text-align: center;
-}
-
+a:hover,
 a:active {
-  color: #ed556a;
   text-align: center;
+  background-color: #98bf21;/* 悬停时背景颜色 */
+  color: #000000;
 }
 
 a {
+  color: white;/* 文字颜色 */
+  text-align: center;/* 文字居中 */
+  text-decoration: none; /* 去掉下划线 */
+  cursor: crosshair; /* 鼠标变为十字准线 */
+  transition: background-color 0.3s; /* 悬停效果过渡 */
+}
+
+.nav {
+  display: inline-block; /* or block */
+  font-weight: bold; /* 粗体 */
+  border-radius: 10pt;/* 圆角盒子 */
+  color: #000000;/* 文字颜色 */
+  background-color: #98bf21;/* 背景颜色 */
+  margin: 3px;/* 外边距 */
+  width: 200px;/* 宽度 */
+  height: auto;/* 高度 */
+  text-align: center; /* 文字居中 */
+  padding: 6px; /* 内边距 */
+  text-decoration: none;/* 去掉下划线 */
+
   text-align: center;
-  text-decoration: none;
-  cursor: crosshair;
+}
+
+a:hover.nav,
+a:active.nav {
+  color: #000000;
+  text-align: center;
 }
 
 ul {
   list-style-type: none;
+}
+
+nav {
+  background-color: #3333338a; /* 导航栏背景色 */
+  padding: 10px; /* 内边距 */
+}
+
+nav ul {
+  list-style-type: none; /* 移除列表默认样式 */
+  margin: 0;
+  padding: 0;
+  display: flex; /* 水平排列 */
+  justify-content: center; /* 居中对齐 */
+}
+
+nav ul li {
+  margin: 0 15px; /* 列表项间距 */
+}
+
+nav ul li a {
+  color: white; /* 链接文字颜色 */
+  text-decoration: none; /* 移除下划线 */
+  font-size: 16px;
+  padding: 5px 10px; /* 内边距 */
+  transition: background-color 0.3s; /* 悬停效果过渡 */
+}
+
+nav ul li a:hover {
+  background-color: #98bf218a; /* 悬停时背景色 */
 }
