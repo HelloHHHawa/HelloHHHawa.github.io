@@ -1,4 +1,4 @@
-@import "/css/bg.css"; /*导入背景图片*/
-@import "/css/ssye.css"; /*导入段落样式*/
-@import "/css/link.css"; /*导入链接样式*/
-@import "/css/nav.css"; /*导入导航样式*/
+@import "css/bg.css"; /*导入背景图片*/
+@import "css/ssye.css"; /*导入段落样式*/
+@import "css/link.css"; /*导入链接样式*/
+@import "css/nav.css"; /*导入导航样式*/
