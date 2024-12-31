@@ -1,41 +1,4 @@
 @import "bg.css"; /*导入背景图片*/
 @import "ssye.css"; /*aaaaaaa*/
-/* 设置链接的默认和访问后的样式 */
-a:link,
-a:visited {
-  display: inline-block; /* or block */
-  font-weight: bold; /* or other styles */
-  border-radius: 10pt;/* or other styles */
-  color: #000000;/* 文字颜色 */
-  background-color: #98bf21;/* 背景颜色 */
-  margin: 3px;/* 内边距 */
-  width: 200px;/* 宽度 */
-  height: 25px;/* 高度 */
-  text-align: center; /* 文字居中 */
-  padding: 6px; /* 内边距 */
-  text-decoration: none;/* 去掉下划线 */
-}
-
-/* 设置链接在悬停时的样式 */
-a:hover {
-  color: #ed556a;
-  text-align: center;
-}
-
-/* 设置链接在激活时的样式 */
-a:active {
-  color: #ed556a;
-  text-align: center;
-}
-
-/* 设置链接的通用样式 */
-a {
-  text-align: center;
-  text-decoration: none;
-  cursor: crosshair;
-}
-
-/* 设置无序列表的样式 */
-ul {
-  list-style-type: none;
-}
+@import "link.css"; /*导入链接样式*/
+@import "list.css"; /*导入列表样式*/
