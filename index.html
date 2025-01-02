@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选择数字</title>
+</head>
+<body>
+    <h1>请选择一个数字（1~25）</h1>
+    <form id="numberForm">
+        <select id="numberSelect">
+            <!-- 生成1到25的选项 -->
+            <script>
+                for (let i = 1; i <= 25; i++) {
+                    document.write(`<option value="${i}">${i}</option>`);
+                }
+            </script>
+        </select>
+        <button type="submit">提交</button>
+    </form>
+
+    <script>
+        // 生成或获取用户唯一标识
+        let userId = localStorage.getItem('userId');
+        if (!userId) {
+            userId = Math.random().toString(36).substring(2) + Date.now().toString(36);
+            localStorage.setItem('userId', userId);
+        }
+
+        // 保存用户选择
+        document.getElementById('numberForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // 阻止表单默认提交行为
+            const selectedNumber = document.getElementById('numberSelect').value;
+
+            // 将选择保存到 localStorage，与 userId 关联
+            const userData = JSON.parse(localStorage.getItem('userData') || '{}');
+            userData[userId] = selectedNumber;
+            localStorage.setItem('userData', JSON.stringify(userData));
+
+            alert('选择已保存！');
+        });
+
+        // 页面加载时显示当前用户的选择（如果有）
+        const userData = JSON.parse(localStorage.getItem('userData') || '{}');
+        if (userData[userId]) {
+            document.getElementById('numberSelect').value = userData[userId];
+        }
+    </script>
+</body>
+</html>
