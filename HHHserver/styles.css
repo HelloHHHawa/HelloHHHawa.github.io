@@ -5,6 +5,8 @@ body {
   background-color: black;
 }
 
+@import "../css/nav.css"; /* 链接导航 */
+
 h1 {
   color: white;
   text-align: center;
