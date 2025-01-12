@@ -1,0 +1,25 @@
+a:link,
+a:visited {
+  display: inline-block; /* or block */
+  font-weight: bold; /* 粗体 */
+  border-radius: 10pt;/* 圆角盒子 */
+  margin: 3px;/* 外边距 */
+  text-align: center; /* 文字居中 */
+  padding: 6px; /* 内边距 */
+  text-decoration: none;/* 去掉下划线 */
+}
+
+a:hover,
+a:active {
+  text-align: center;
+  background-color: #98bf21;/* 悬停时背景颜色 */
+  color: #000000;
+}
+
+a {
+  color: white;/* 文字颜色 */
+  text-align: center;/* 文字居中 */
+  text-decoration: none; /* 去掉下划线 */
+  cursor: crosshair; /* 鼠标变为十字准线 */
+  transition: background-color 0.3s; /* 悬停效果过渡 */
+}

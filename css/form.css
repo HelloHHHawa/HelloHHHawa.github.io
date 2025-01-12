@@ -1,0 +1,16 @@
+form {
+    color: white;
+}
+
+input {
+    color: white;
+    border-color: black;
+    background-color: rgb(56, 56, 56);
+}
+
+textarea {
+    white-space: normal; /* 确保文本自动换行 */
+    word-wrap: break-word; /* 允许长单词或 URL 换行 */
+    overflow-wrap: break-word; /* 兼容性更好的换行方式 */
+    resize: vertical; /* 允许用户垂直调整文本框大小 */
+}

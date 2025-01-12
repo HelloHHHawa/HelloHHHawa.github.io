@@ -5,8 +5,6 @@ body {
   background-color: black;
 }
 
-@import "../css/nav.css"; /* 链接导航 */
-
 h1 {
   color: white;
   text-align: center;
@@ -47,6 +45,34 @@ a {
   cursor: crosshair;
 }
 
+a.nav,
+a:link.nav,
+a:visited.nav {
+  display: inline-block;
+  /* or block */
+  font-weight: bold;
+  /* 粗体 */
+  border-radius: 10pt;
+  /* 圆角盒子 */
+  color: white;
+  /* 文字颜色 */
+  margin: 3px;
+  /* 外边距 */
+  width: 200px;
+  /* 宽度 */
+  height: auto;
+  /* 高度 */
+  text-align: center;
+  /* 文字居中 */
+  padding: 6px;
+  /* 内边距 */
+  text-decoration: none;
+  /* 去掉下划线 */
+  text-align: center;
+  transition: background-color 0.3s;
+  /* 悬停效果过渡 */
+}
+
 a:link,
 a:visited {
   display: inline-block;
@@ -65,4 +91,63 @@ form {
 
 input {
   color: white;
+}
+
+a.nav,
+a:link.nav,
+a:visited.nav {
+  display: inline-block;
+  /* or block */
+  font-weight: bold;
+  /* 粗体 */
+  border-radius: 10pt;
+  /* 圆角盒子 */
+  color: white;
+  /* 文字颜色 */
+  margin: 3px;
+  /* 外边距 */
+  width: 200px;
+  /* 宽度 */
+  height: auto;
+  /* 高度 */
+  text-align: center;
+  /* 文字居中 */
+  padding: 6px;
+  /* 内边距 */
+  text-decoration: none;
+  /* 去掉下划线 */
+  background-color: transparent;
+  transition: background-color 0.3s;
+  /* 悬停效果过渡 */
+}
+
+a:hover.nav,
+a:active.nav {
+  color: white;
+  text-align: center;
+  background-color: #0000008a;
+  /* 悬停时背景色 */
+}
+
+nav.nav {
+  background-color: #3333338a;
+  /* 导航栏背景色 */
+  padding: 10px;
+  /* 内边距 */
+}
+
+nav.nav ul {
+  list-style-type: none;
+  /* 移除列表默认样式 */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* 水平排列 */
+  justify-content: center;
+  /* 居中对齐 */
+}
+
+nav.nav ul li {
+  margin: 0 15px;
+  /* 列表项间距 */
 }

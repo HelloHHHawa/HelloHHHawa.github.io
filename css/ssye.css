@@ -1,0 +1,17 @@
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+
+}
+
+p.container {
+    column-count: 3;
+    text-align: center;
+    height: 200px;
+    background-color: #ffffff30;
+    column-rule: 1px solid #ffffff60;
+}

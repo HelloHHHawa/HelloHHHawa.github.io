@@ -1,0 +1,7 @@
+body {
+    background-color: black;
+    background-image: url('../IMAGE/bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+  }
