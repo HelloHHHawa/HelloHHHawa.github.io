@@ -2,4 +2,5 @@
 @import "css/nav.css"; /* 导入导航 */
 @import "css/link.css"; /* 导入链接 */
 @import "css/ssye.css"; /* 导入段落 */
-@import "css/form.css" /* 导入表单 */
+@import "css/form.css"; /* 导入表单 */
+@import "css/table.css"; /* 导入表格 */

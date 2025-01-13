@@ -1,8 +1,22 @@
 # 本周页面
 
-![村庄中的木桶][def]
+![苍白之园中生成的苍白垂须][def]
 
-[木桶](https://zh.minecraft.wiki/w/%E6%9C%A8%E6%A1%B6)是可以储存[物品](https://zh.minecraft.wiki/w/%E7%89%A9%E5%93%81)的[方块](https://zh.minecraft.wiki/w/%E6%96%B9%E5%9D%97)。
-木桶会生成在[村庄](https://zh.minecraft.wiki/w/%E6%9D%91%E5%BA%84)和[试炼密室](https://zh.minecraft.wiki/w/%E8%AF%95%E7%82%BC%E5%AF%86%E5%AE%A4)中，也可以使用[木板](https://zh.minecraft.wiki/w/%E6%9C%A8%E6%9D%BF)和[木质台阶](https://zh.minecraft.wiki/w/%E6%9C%A8%E8%B4%A8%E5%8F%B0%E9%98%B6)合成。
+[**苍白垂须**](https://zh.minecraft.wiki/w/%E8%8B%8D%E7%99%BD%E5%9E%82%E9%A1%BB)
+是一种生成于
+[苍白之园](https://zh.minecraft.wiki/w/%E8%8B%8D%E7%99%BD%E4%B9%8B%E5%9B%AD)
+生物群系的方块。
+苍白垂须会自然生成于苍白之园生物群系中
+[苍白橡树](https://zh.minecraft.wiki/w/%E8%8B%8D%E7%99%BD%E6%A9%A1%E6%A0%91)
+的树干和树叶下方。
+苍白垂须也可以通过与流浪商人交易获得。
 
-[def]: Images/800px-Barrel_in_village.png
+没有被剪刀或具有精准采集的工具挖掘破坏时，苍白垂须被破坏后不会掉落。
+
+当放置在苍白橡木原木、苍白橡木、去皮苍白橡木原木、去皮苍白橡木[仅Java版]或苍白橡树树叶下方时，苍白垂须每刻有1⁄500的概率发出特殊的环境音效。
+
+苍白垂须不会自然生长。对苍白垂须使用骨粉会使其向下生长一格。
+
+图为苍白之园中生成的苍白垂须。
+
+[def]: Images/Bedrock_1.21.50.28_PatchNotes.png

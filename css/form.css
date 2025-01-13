@@ -14,3 +14,10 @@ textarea {
     overflow-wrap: break-word; /* 兼容性更好的换行方式 */
     resize: vertical; /* 允许用户垂直调整文本框大小 */
 }
+
+input:invalid {
+    background-color: rgb(56, 56, 56);
+    border: none;
+    outline: 2px solid red;
+    border-radius: 5px;
+}

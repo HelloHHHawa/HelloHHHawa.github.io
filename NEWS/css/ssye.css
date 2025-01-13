@@ -22,3 +22,7 @@ p.container {
     background-color: #ffffff30; /* 背景半透明 */
     column-rule: 1px solid #ffffff60; /* 列间隔 */
 }
+
+table {
+    line-height: 2.5; /* 2.5 倍行高 */
+}
