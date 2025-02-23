@@ -3,6 +3,10 @@ h1 {
     color: white;
     text-align: center;
   }
+
+h2 {
+  color: white;
+}
   
 /* 设置段落的样式 */
 p {
