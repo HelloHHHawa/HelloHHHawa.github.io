@@ -1,0 +1,36 @@
+form {
+    color: white;
+    /* 设置字体颜色 */
+}
+
+input {
+    color: white;
+    /* 设置字体颜色 */
+    border-color: black;
+    /* 设置边框颜色 */
+    background-color: rgb(56, 56, 56);
+    /* 设置背景颜色 */
+}
+
+textarea {
+    white-space: normal;
+    /* 确保文本自动换行 */
+    word-wrap: break-word;
+    /* 允许长单词或 URL 换行 */
+    overflow-wrap: break-word;
+    /* 兼容性更好的换行方式 */
+    resize: vertical;
+    /* 允许用户垂直调整文本框大小 */
+}
+
+input:invalid {
+    /* 验证错误时的样式 */
+    background-color: rgb(56, 56, 56);
+    /* 背景颜色 */
+    border: none;
+    /* 去掉边框 */
+    outline: 2px solid red;
+    /* 绘制红色边框 */
+    border-radius: 5px;
+    /* 给边框添加圆角 */
+}
