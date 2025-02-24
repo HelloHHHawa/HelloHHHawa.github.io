@@ -170,3 +170,11 @@ nav.nav ul li {
   margin: 0 15px;
   /* 列表项间距 */
 }
+
+.onec {
+  display: inline-block; /* 内联块 */
+  padding: 2px; /* 内边距 */
+  text-align: center; /* 文本居中 */
+  height: auto; /* 自动高度 */
+  background-color: #ffffff30; /* 背景半透明 */
+}
