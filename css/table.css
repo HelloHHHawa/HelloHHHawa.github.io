@@ -1,0 +1,19 @@
+table { /* 设置表格的样式 */
+    color: white;
+    /* 设置字体颜色 */
+    border: 2px solid rgb(56, 56, 56);
+    /* 设置边框 */
+    border-collapse: collapse;
+    /* 合并边框 */
+    background-color: rgb(31, 31, 31);
+    /* 设置背景颜色 */
+}
+
+td { /* 设置单元格的背景样式 */
+    background-color: rgb(31, 31, 31);
+    /* 设置背景颜色 */
+    color: white;
+    /* 设置字体颜色 */
+    border: 2px solid rgb(56, 56, 56);
+    /* 设置边框 */
+}
